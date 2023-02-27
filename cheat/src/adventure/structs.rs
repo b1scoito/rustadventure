@@ -7,11 +7,16 @@ pub struct Vec3 {
     pub z: f32,
 }
 #[derive(Debug)]
-pub struct WebSocketPlayerInfo {
-    pub identifier_bytes: Vec<u8>,
+pub struct WsPlayerInfo {
     pub position: Vec3,
     pub rotation: Vec3,
-    pub forwardfrac: Vec<u8>,
+    pub forward_fraction: Vec<u8>,
+}
+
+#[derive(Debug)]
+pub struct WsBasePacket {
+    pub packet_identifier: i16, // Packet identifier
+    pub buffer: Vec<u8>,
 }
 
 #[repr(C)]

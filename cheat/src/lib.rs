@@ -55,8 +55,8 @@ unsafe extern "system" fn dll_attach(_: *mut c_void) -> u32 {
     // Detach DLL when loop routine finishes.
     FreeLibraryAndExitThread(DLL_INSTANCE, 0);
 
-    // Return EXIT_SUCCESS
-    0
+    // Return TRUE
+    1
 }
 
 #[no_mangle]

@@ -21,4 +21,4 @@ Credit where credit is due
 - hazedumper's [memory lib](https://github.com/frk1/hazedumper-rs)
 - [retour-rs](https://github.com/Hpmason/retour-rs): a fork of detour-rs that works on latest nightly
 - [dll-syringe](https://github.com/OpenByteDev/dll-syringe): a great-looking dll injection library for Rust
-- my friends thank you
+- my friends, thank you
